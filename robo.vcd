@@ -1,0 +1,298 @@
+$date
+	Thu Jan 23 13:37:32 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_robo $end
+$var wire 1 ! led_erro $end
+$var wire 4 " display_estado [3:0] $end
+$var wire 1 # C7 $end
+$var wire 1 $ C6 $end
+$var wire 1 % C5 $end
+$var wire 1 & C4 $end
+$var wire 1 ' C3 $end
+$var wire 1 ( C2 $end
+$var wire 1 ) C1 $end
+$var reg 1 * clk $end
+$var reg 1 + insere $end
+$var reg 4 , numero [3:0] $end
+$var reg 1 - reset $end
+$scope module uut $end
+$var wire 1 * clk $end
+$var wire 1 + insere $end
+$var wire 4 . numero [3:0] $end
+$var wire 1 - reset $end
+$var parameter 4 / F $end
+$var parameter 4 0 S0 $end
+$var parameter 4 1 S1 $end
+$var parameter 4 2 S2 $end
+$var parameter 4 3 S3 $end
+$var parameter 4 4 S4 $end
+$var parameter 4 5 S5 $end
+$var parameter 4 6 S6 $end
+$var parameter 4 7 SP $end
+$var reg 1 ) C1 $end
+$var reg 1 ( C2 $end
+$var reg 1 ' C3 $end
+$var reg 1 & C4 $end
+$var reg 1 % C5 $end
+$var reg 1 $ C6 $end
+$var reg 1 # C7 $end
+$var reg 4 8 TP [3:0] $end
+$var reg 4 9 display_estado [3:0] $end
+$var reg 4 : estado_atual [3:0] $end
+$var reg 1 ! led_erro $end
+$var reg 4 ; proximo_estado [3:0] $end
+$var integer 32 < parcial [31:0] $end
+$var integer 32 = posicao [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b110 7
+b1111 6
+b101 5
+b100 4
+b11 3
+b10 2
+b1 1
+b0 0
+b111 /
+$end
+#0
+$dumpvars
+b0 =
+b0 <
+b110 ;
+b0 :
+b0 9
+b0 8
+b0 .
+1-
+b0 ,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+1#
+b0 "
+0!
+$end
+#5000
+1*
+#10000
+0*
+0-
+#15000
+1!
+b1 <
+b110 :
+1*
+#20000
+0*
+b101 ,
+b101 .
+1+
+#25000
+1*
+#30000
+b0 ;
+0*
+0+
+#35000
+b101 "
+b101 9
+b1 8
+b0 :
+1*
+#40000
+1(
+1%
+0#
+0*
+b1001 ,
+b1001 .
+1+
+#45000
+1*
+#50000
+b110 ;
+0*
+0+
+#55000
+b1001 "
+b1001 9
+b110 :
+1*
+#60000
+0(
+0*
+b0 ,
+b0 .
+1+
+#65000
+1*
+#70000
+b111 ;
+0*
+0+
+#75000
+b1100 "
+b1100 9
+b111 :
+1*
+#80000
+1(
+1'
+1&
+0%
+0*
+b1111 ,
+b1111 .
+1+
+#85000
+1*
+#90000
+0*
+0+
+#95000
+1*
+#100000
+b0 "
+b0 9
+b0 8
+0!
+b0 :
+b0 <
+0*
+1-
+#105000
+1*
+#110000
+0(
+0'
+0&
+1#
+0*
+b101 ,
+b101 .
+1+
+0-
+#115000
+1*
+#120000
+b1 ;
+0*
+0+
+#125000
+b101 "
+b101 9
+b10 8
+b1 =
+b1 :
+1*
+#130000
+1(
+1%
+0#
+0*
+b1001 ,
+b1001 .
+1+
+#135000
+1*
+#140000
+b10 ;
+0*
+0+
+#145000
+b1001 "
+b1001 9
+b11 8
+b10 =
+b10 :
+1*
+#150000
+0(
+0*
+b0 ,
+b0 .
+1+
+#155000
+1*
+#160000
+b11 ;
+0*
+0+
+#165000
+b0 "
+b0 9
+b11 =
+b100 8
+b11 :
+1*
+#170000
+0%
+1#
+0*
+1+
+#175000
+1*
+#180000
+b100 ;
+0*
+0+
+#185000
+b101 8
+b100 =
+b100 :
+1*
+#190000
+0*
+b111 ,
+b111 .
+1+
+#195000
+1*
+#200000
+b101 ;
+0*
+0+
+#205000
+b111 "
+b111 9
+b1111 8
+b101 =
+b101 :
+1*
+#210000
+1&
+1%
+1$
+0*
+b1 ,
+b1 .
+1+
+#215000
+1*
+#220000
+b1111 ;
+0*
+0+
+#225000
+b1010 "
+b1010 9
+b0 =
+b1111 :
+1*
+#230000
+0*
